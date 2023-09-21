@@ -545,7 +545,7 @@ const Chat = () => {
                                     aria-hidden="true"
                                 />
                                 <h1 className={styles.chatEmptyStateTitle}>Olá, Eu sou o ABC Hermes</h1>
-                                <h2 className={styles.chatEmptyStateSubtitle}>Hermes está configurado para responder às suas perguntas com informações internas do Banco ABC Brasil.</h2>
+                                <h2 className={styles.chatEmptyStateSubtitle}>Hermes está configurado para responder às suas perguntas com informações internas do Banco ABC Brasil e ChatGPT.</h2>
                             </Stack>
                         ) : (
                             <div className={styles.chatMessageStream} style={{ marginBottom: isLoading ? "40px" : "0px"}} role="log">
